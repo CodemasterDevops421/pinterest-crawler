@@ -1,74 +1,41 @@
 
 ```markdown
-# Pinterest Scraper
+# 🚀 Google Trending Searches Actor
 
-Unlock the full potential of Pinterest data with our free Pinterest Scraper. This tool allows you to extract detailed information from "pins" and user profiles, offering more depth than the standard web interface.
+**Stay Ahead with the Latest Trends Directly from Google!**
 
-## Features
+Discover what the world is searching for with the Google Trending Searches Actor. This tool enables you to automatically track and extract trending search queries from Google, ensuring you're always up-to-date with the latest topics and trends.
 
-- **Profile Scraping**: Retrieve metadata directly from user profiles.
-- **Pin Scraping**: Obtain comprehensive details about various types of pins.
+## Key Features:
 
-## How to Use
+- **Real-Time Updates**: Automatically receive the latest trending searches as they're updated by Google.
+- **Global Insights**: Get trending searches from various regions and languages, allowing a global perspective or localized insights.
+- **Customizable Tracking**: Focus on specific regions or categories to tailor the data to your needs.
 
-For detailed instructions on utilizing the Pinterest Scraper, consult our step-by-step guide on [how to scrape Pinterest](https://blog.apify.com/how-to-scrape-data-on-pinterest-in-5-easy-steps/) or watch the [tutorial video](https://www.youtube.com/watch?v=v8WDCpA3iR0) on our YouTube channel.
+## How It Works:
 
-## Cost
+Configure your preferences for regions and languages in the input settings, and let the actor do the rest. It's that simple!
 
-Scraping 1,000 pins costs approximately $0.25. With the Apify Free plan, which provides $5 in monthly credits, you can scrape up to 20,000 pins for free each month. For larger data needs, consider our Personal plan at $49/month, allowing for up to 200,000 pins monthly.
+## Applications:
 
-## Why Scrape Pinterest?
+- **Market Research**: Understand market trends to better align your products and marketing efforts.
+- **Content Creation**: Generate content that matches current search trends to increase engagement.
+- **SEO Optimization**: Enhance your SEO strategy by integrating trending keywords and topics.
 
-Extracting data from Pinterest can help you:
+## Setup:
 
-- Analyze audience characteristics and engagement.
-- Identify and engage with top subscribers through targeted outreach.
-- Gain insights into competitor audiences and strategies.
+Set up the actor to run at your preferred intervals—daily, weekly, or on-demand—to ensure you never miss out on important trends.
 
-Explore further applications on our [industries pages](https://apify.com/industries).
+## Data Output:
 
-## Configuration
-
-### Input Settings
-
-Provide a list of Pinterest profile names or URLs. These can be mixed in any order.
-
-### Proxies
-
-- **Standard Proxies**: Supported by Pinterest.
-- **Custom Proxies**: Use your own proxy settings by specifying `proxyURLs` in the JSON configuration.
-
-## Legal Considerations
-
-While web scraping is legal, ensure compliance with GDPR and other privacy laws when handling personal data. For legality concerns, refer to our [web scraping legality post](https://blog.apify.com/is-web-scraping-legal/).
-
-## Sample Input
+The actor outputs data in various formats such as JSON, CSV, or HTML, making it easy to integrate into your existing workflows.
 
 ```json
 {
-    "profiles": [
-        "https://www.pinterest.com/exampleprofile/",
-        "userProfile2"
-    ],
-    "proxyURLs": [
-        "http://yourproxy.com"
-    ]
-}
-```
-
-## Sample Output
-
-```json
-{
-    "profileName": "exampleprofile",
-    "pins": [
-        {
-            "id": "123456",
-            "title": "Summer Fashion",
-            "description": "Latest summer fashion trends",
-            "image": "https://example.com/image.jpg"
-        }
-    ]
+  "trend": "AI Developments",
+  "searchVolume": "50,000+",
+  "region": "Worldwide",
+  "category": "Technology"
 }
 ```
 
@@ -83,7 +50,8 @@ While web scraping is legal, ensure compliance with GDPR and other privacy laws 
 ### Support
 
 - **Discord**: [Raise a Support ticket here](https://discord.gg/2WGj2PDmHb)
-- **Email**: [Contact us](mailto:codemasterdevops@gmail.com)
+- **Email**: [Contact me](mailto:codemasterdevops@gmail.com)
 
-Start leveraging the power of Pinterest today with our Pinterest Scraper!
+**Harness the power of Google's vast data to stay one step ahead in your industry. Start using the Google Trending Searches Actor today and transform your approach to market analysis and content strategy!**
 ```
+
